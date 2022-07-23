@@ -1,0 +1,9 @@
+name: HTTPRequests
+version: '${version}'
+main: org.lactusplugins.mc.httprequests.HTTPRequests
+api-version: 1.19
+authors: [ Lactus ]
+description: Sending HTTP requests from minecraft
+website: https://github.com/KactusG
+commands:
+  httprequests: {}
