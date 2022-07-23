@@ -11,7 +11,7 @@ Simple HTTP Requests in Minecraft Server<br>
 GET, POST
 
 ### Permssions:
-httprequests.reload
+httprequests.reload <br>
 httprequests.request
 
 ## Instructions for running on versions <1.15:
