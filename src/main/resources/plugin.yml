@@ -6,4 +6,6 @@ authors: [ Lactus ]
 description: Sending HTTP requests from minecraft
 website: https://github.com/KactusG
 commands:
-  httprequests: {}
+  httprequests:
+    usage: /httprequests
+    aliases: [hr]

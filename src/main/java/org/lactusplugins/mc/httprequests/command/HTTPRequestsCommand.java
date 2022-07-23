@@ -44,12 +44,12 @@ public class HTTPRequestsCommand extends AbstractCommand {
             try {
                 String method = args[1];
                 String req = args[2];
-                int status;
                 try {
                     URL url = new URL(req);
                     conn = (HttpURLConnection) url.openConnection();
                     conn.setRequestMethod(method.toUpperCase());
-                    status = conn.getResponseCode();
+                    int responseCode = conn.getResponseCode();
+                    sender.sendMessage("Response code: " + responseCode);
                 } catch (ProtocolException e) {
                     throw new RuntimeException(e);
                 } catch (MalformedURLException e) {
@@ -57,7 +57,6 @@ public class HTTPRequestsCommand extends AbstractCommand {
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
-                sender.sendMessage(String.valueOf(status));
                 return;
             } catch (RuntimeException e) {
                 sender.sendMessage("Error command" + ": /" + label + " request <Method> <URL>");
