@@ -1,18 +1,14 @@
 # HTTPRequests
 Simple HTTP Requests in Minecraft Server<br>
 ### Command:<br>
-``
-/httprequests reload
-``<br>
-``
-/httprequests request <Method> <URL>
-``
+``/httprequests reload``<br>
+``/httprequests request <Method> <URL>``
 ### Avaible method:
 GET, POST
 
 ### Permssions:
-httprequests.reload <br>
-httprequests.request
+``httprequests.reload`` <br>
+``httprequests.request``
 
 ## Instructions for running on versions <1.15:
 ### If you have downloaded the plugin:
