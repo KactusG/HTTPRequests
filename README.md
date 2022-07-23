@@ -10,6 +10,10 @@ Simple HTTP Requests in Minecraft Server<br>
 ### Avaible method:
 GET, POST
 
+### Permssions:
+httprequests.reload
+httprequests.request
+
 ## Instructions for running on versions <1.15:
 ### If you have downloaded the plugin:
 1) Open plugin with archiver
