@@ -10,9 +10,6 @@ public final class HTTPRequests extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-
-        saveDefaultConfig();
-
         new HTTPRequestsCommand();
     }
 
