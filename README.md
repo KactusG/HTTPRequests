@@ -10,7 +10,7 @@ GET, POST
 ``httprequests.reload`` <br>
 ``httprequests.request``
 
-## Instructions for running on versions <1.15:
+## Instructions for running on versions <1.13:
 ### If you have downloaded the plugin:
 1) Open plugin with archiver
 2) Open the plugin.yml file in the editor
